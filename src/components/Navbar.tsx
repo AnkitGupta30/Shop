@@ -16,6 +16,10 @@ const Navbar = () => {
         <Link href={"/"}>
           <div className="text-2xl tracking-wide">Ankit</div>
         </Link>
+        <span className="w-full flex justify-end items-center pr-5">
+          <NavIcons />
+        </span>
+
         <Menu />
       </div>
       {/* bigger screen  */}
